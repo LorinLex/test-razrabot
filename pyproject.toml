@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 aiogram = "^3.19.0"
 httpx = "^0.28.1"
+python-dotenv = "^1.1.0"
+pymorphy2 = "^0.9.1"
 
 
 [tool.poetry.group.dev.dependencies]
