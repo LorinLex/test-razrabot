@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test-razrabot"
+version = "0.1.0"
+description = ""
+authors = ["Emil Muhitdinov <laizybot@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.19.0"
+httpx = "^0.28.1"
+python-dotenv = "^1.1.0"
+yake = "^0.4.8"
+loguru = "^0.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.15.0"
+ruff = "^0.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
